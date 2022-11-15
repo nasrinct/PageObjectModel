@@ -45,7 +45,7 @@ public class TablePage {
 		names=utilityclass.get_textofElement("//tbody//tr//td[1]");
 		//System.out.println(names);
 		int pos=0;
-		//System.out.println(names);
+		
 		for(pos=0;pos<names.size();pos++) {
 			if(name.equals(names.get(pos))) {
 				pos++;
